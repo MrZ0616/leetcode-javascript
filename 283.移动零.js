@@ -13,7 +13,7 @@ const moveZeroes = function (nums) {
   }
 
   // console.log(nums)
-};
+}
 
 moveZeroes([0, 1, 0, 3, 12])
 moveZeroes([1])

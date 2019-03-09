@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-let pivotIndex = function(nums) {
+let pivotIndex = function (nums) {
   for (let i = 0; i < nums.length; i++) {
     let lSum = 0
     let rSum = 0
@@ -21,7 +21,7 @@ let pivotIndex = function(nums) {
   }
 
   return -1
-};
+}
 
 console.log(pivotIndex([1, 7, 3, 6, 5, 6]))
 console.log(pivotIndex([1, 2, 3]))

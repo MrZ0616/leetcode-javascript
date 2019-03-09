@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-let twoSum = function(numbers, target) {
+let twoSum = function (numbers, target) {
   let left = 0
   let right = numbers.length - 1
 
@@ -14,7 +14,7 @@ let twoSum = function(numbers, target) {
   }
 
   return []
-};
+}
 
 // console.log(twoSum([2, 7, 11, 15], 26))
 console.log(twoSum([-1, 0], -1))

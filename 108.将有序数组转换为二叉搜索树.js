@@ -22,4 +22,4 @@ const sortedArrayToBST = function (nums) {
   root.right = sortedArrayToBST(nums.splice(1))
 
   return root
-};
+}

@@ -34,10 +34,10 @@ let longestCommonPrefix = function (strs) {
   }
 
   return prefix
-};
+}
 
-console.log(longestCommonPrefix(["flower", "flow", "flight"]))
-console.log(longestCommonPrefix(["dog", "dog", "dog"]))
-console.log(longestCommonPrefix(["dog", "racecar", "car"]))
+console.log(longestCommonPrefix(['flower', 'flow', 'flight']))
+console.log(longestCommonPrefix(['dog', 'dog', 'dog']))
+console.log(longestCommonPrefix(['dog', 'racecar', 'car']))
 console.log(longestCommonPrefix([]))
-console.log(longestCommonPrefix(["aca","cba"]))
+console.log(longestCommonPrefix(['aca', 'cba']))

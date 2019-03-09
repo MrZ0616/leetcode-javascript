@@ -30,4 +30,4 @@ const mergeTwoLists = function (l1, l2) {
   prev.next = l1 ? l1 : l2
 
   return dummy.next
-};
+}

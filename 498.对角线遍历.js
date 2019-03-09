@@ -42,6 +42,6 @@ let findDiagonalOrder = function (matrix) {
   }
 
   return arr
-};
+}
 
 console.log(findDiagonalOrder([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))

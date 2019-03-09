@@ -14,4 +14,4 @@ const rotate = function (nums, k) {
     }
     nums[0] = last
   }
-};
+}

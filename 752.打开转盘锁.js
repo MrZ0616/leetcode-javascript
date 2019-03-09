@@ -34,7 +34,7 @@ const openLock = function (deadends, target) {
     step++
   }
 
-  function getNexts(current) {
+  function getNexts (current) {
     let arr = []
     for (let i = 0; i < 4; i++) {
       let arrCurrent = current.split('')
@@ -57,7 +57,7 @@ const openLock = function (deadends, target) {
   }
 
   return -1
-};
+}
 
-console.log(openLock(["0201", "0101", "0102", "1212", "2002"], "0202"))
-console.log(openLock(["8888"], "0009"))
+console.log(openLock(['0201', '0101', '0102', '1212', '2002'], '0202'))
+console.log(openLock(['8888'], '0009'))

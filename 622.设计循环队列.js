@@ -8,7 +8,7 @@ const MyCircularQueue = function (k) {
   this.size = 0
   this.head = -1
   this.tail = -1
-};
+}
 
 /**
  * Insert an element into the circular queue. Return true if the operation is successful.
@@ -27,7 +27,7 @@ MyCircularQueue.prototype.enQueue = function (value) {
   this.data[this.tail] = value
 
   return true
-};
+}
 
 /**
  * Delete an element from the circular queue. Return true if the operation is successful.
@@ -48,7 +48,7 @@ MyCircularQueue.prototype.deQueue = function () {
   }
 
   return true
-};
+}
 
 /**
  * Get the front item from the queue.
@@ -56,7 +56,7 @@ MyCircularQueue.prototype.deQueue = function () {
  */
 MyCircularQueue.prototype.Front = function () {
   return this.size === 0 ? -1 : this.data[this.head]
-};
+}
 
 /**
  * Get the last item from the queue.
@@ -64,7 +64,7 @@ MyCircularQueue.prototype.Front = function () {
  */
 MyCircularQueue.prototype.Rear = function () {
   return this.size === 0 ? -1 : this.data[this.tail]
-};
+}
 
 /**
  * Checks whether the circular queue is empty or not.
@@ -72,7 +72,7 @@ MyCircularQueue.prototype.Rear = function () {
  */
 MyCircularQueue.prototype.isEmpty = function () {
   return this.size === 0
-};
+}
 
 /**
  * Checks whether the circular queue is full or not.
@@ -80,7 +80,7 @@ MyCircularQueue.prototype.isEmpty = function () {
  */
 MyCircularQueue.prototype.isFull = function () {
   return this.size === this.k
-};
+}
 
 /**
  * Your MyCircularQueue object will be instantiated and called as such:

@@ -23,4 +23,4 @@ const levelOrder = function (root, floor = 0, arr = []) {
   levelOrder(root.right, floor + 1, arr)
 
   return arr
-};
+}

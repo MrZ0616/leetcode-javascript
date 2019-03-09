@@ -5,7 +5,7 @@
  */
 let strStr = function (haystack, needle) {
   return haystack.indexOf(needle)
-};
+}
 
 console.log(strStr('hello', 'll'))
 console.log(strStr('aaaaa', 'bba'))
@@ -32,7 +32,7 @@ let strStr1 = function (haystack, needle) {
   }
 
   return -1
-};
+}
 
 console.log(strStr1('hello', 'll'))
 console.log(strStr1('aaaaa', 'bba'))

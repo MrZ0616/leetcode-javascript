@@ -15,6 +15,6 @@ var getRow = function (rowIndex) {
   }
 
   return arr
-};
+}
 
 console.log(getRow(5))

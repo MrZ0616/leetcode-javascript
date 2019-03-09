@@ -21,4 +21,4 @@ const hasCycle = function (head) {
   }
 
   return false
-};
+}

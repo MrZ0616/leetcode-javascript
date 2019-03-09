@@ -11,6 +11,6 @@ const reverseWords = function (s) {
   }
 
   return arrR.join(' ')
-};
+}
 
 console.log(reverseWords('Let\'s take LeetCode contest'))

@@ -20,6 +20,6 @@ let generate = function (numRows) {
   }
 
   return arr
-};
+}
 
 console.log(generate(5))

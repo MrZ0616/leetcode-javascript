@@ -10,7 +10,7 @@
  * @return {number}
  * 递归
  */
-const TreeNode = require("./public/treenode")
+const TreeNode = require('./public/treenode')
 
 const maxDepth = function (root) {
   if (!root) {
@@ -20,7 +20,7 @@ const maxDepth = function (root) {
     let right = maxDepth(root.right)
     return Math.max(left, right) + 1
   }
-};
+}
 
 root = new TreeNode(3)
 root.left = new TreeNode(9)

@@ -27,26 +27,31 @@ const numIslands = function (grid) {
     }
   }
 
-  function dfs(i, j) {
+  function dfs (i, j) {
     visited[i][j] = true
     for (let k = 0; k < direction.length; k++) {
       let iNew = i + direction[k][0]
       let jNew = j + direction[k][1]
 
-      if (isValid(iNew, jNew) && !visited[iNew][jNew] && grid[iNew][jNew] === '1') {
+      if (isValid(iNew, jNew) && !visited[iNew][jNew] && grid[iNew][jNew] ===
+        '1') {
         dfs(iNew, jNew)
       }
     }
   }
 
   // 坐标是否合法
-  function isValid(i, j) {
+  function isValid (i, j) {
     return i >= 0 && i < row && j >= 0 && j < col
   }
 
   return count
-};
+}
 
 console.log(numIslands([['1']]))
-console.log(numIslands([['1', '1', '0', '0', '0'], ['1', '1', '0', '0', '0'], ['0', '0', '1', '0', '0'], ['0', '0', '0', '1', '1']]))
+console.log(numIslands([
+  ['1', '1', '0', '0', '0'],
+  ['1', '1', '0', '0', '0'],
+  ['0', '0', '1', '0', '0'],
+  ['0', '0', '0', '1', '1']]))
 

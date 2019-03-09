@@ -21,6 +21,6 @@ let minSubArrayLen = function (s, nums) {
   min = min < Number.MAX_VALUE ? min : 0
 
   return min
-};
+}
 
 console.log(minSubArrayLen(7, [2, 3, 1, 2, 4, 3]))

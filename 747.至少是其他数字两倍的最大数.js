@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-let dominantIndex = function(nums) {
+let dominantIndex = function (nums) {
   let max = Number.MIN_VALUE
   let index = 0
 
@@ -21,7 +21,7 @@ let dominantIndex = function(nums) {
   }
 
   return index
-};
+}
 
 console.log(dominantIndex([3, 6, 1, 0]))
 console.log(dominantIndex([1, 2, 3, 4]))

@@ -22,7 +22,7 @@ const numSquares = function (n) {
   }
 
   return arr[n]
-};
+}
 
 console.log(numSquares(12))
 console.log(numSquares(13))
